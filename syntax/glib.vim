@@ -86,7 +86,7 @@ syn keyword	gDefine G_E G_LN2 G_LN10 G_PI G_PI_2 G_PI_4 G_SQRT2 G_LOG_2_BASE_10
 " Miscellaneous Macros
 syn keyword	gDefine G_INLINE_FUNC
 syn keyword	gDefine G_STMT_START G_STMT_END
-syn keyword	gDefine G_BEGIN_DECLS G_END_DECLS 
+syn keyword	gDefine G_BEGIN_DECLS G_END_DECLS
 syn keyword	gDefine G_N_ELEMENTS
 syn keyword	gDefine G_VA_COPY
 syn keyword	gDefine G_STRINGIFY
@@ -258,7 +258,7 @@ syn keyword	gEnumConstant G_UNICODE_BREAK_SYMBOL G_UNICODE_BREAK_ALPHABETIC
 syn keyword	gEnumConstant G_UNICODE_BREAK_PREFIX G_UNICODE_BREAK_POSTFIX
 syn keyword	gEnumConstant G_UNICODE_BREAK_COMPLEX_CONTEXT
 syn keyword	gEnumConstant G_UNICODE_BREAK_AMBIGUOUS G_UNICODE_BREAK_UNKNOWN
-syn keyword	gDefine g_utf8_next_char               
+syn keyword	gDefine g_utf8_next_char
 syn keyword	gEnum GNormalizeMode
 syn keyword	gEnumConstant G_NORMALIZE_DEFAULT G_NORMALIZE_NFD
 syn keyword	gEnumConstant G_NORMALIZE_DEFAULT_COMPOSE G_NORMALIZE_NFC
@@ -270,7 +270,7 @@ syn keyword	gDefine G_USEC_PER_SEC
 syn keyword	gStructure GTimeVal GDate
 syn keyword	gType GTime
 syn keyword	gEnum GDateDMY
-syn keyword	gEnumConstant G_DATE_DAY G_DATE_MONTH G_DATE_YEAR 
+syn keyword	gEnumConstant G_DATE_DAY G_DATE_MONTH G_DATE_YEAR
 syn keyword	gType GDateDay
 syn keyword	gEnum GDateMonth
 syn keyword	gEnumConstant G_DATE_BAD_MONTH G_DATE_JANUARY G_DATE_FEBRUARY
@@ -290,7 +290,7 @@ syn keyword	gDefine g_rand_boolean g_random_boolean
 
 " Hook Functions
 syn keyword	gStructure GHookList GHook
-syn keyword	gDefine g_hook_append   
+syn keyword	gDefine g_hook_append
 syn keyword	gEnum GHookFlagMask
 syn keyword	gEnumConstant G_HOOK_FLAG_ACTIVE G_HOOK_FLAG_IN_CALL
 syn keyword	gEnumConstant G_HOOK_FLAG_MASK
@@ -320,7 +320,7 @@ syn keyword	gEnumConstant G_TOKEN_HEX G_TOKEN_FLOAT
 syn keyword	gEnumConstant G_TOKEN_STRING G_TOKEN_SYMBOL
 syn keyword	gEnumConstant G_TOKEN_IDENTIFIER G_TOKEN_IDENTIFIER_NULL
 syn keyword	gEnumConstant G_TOKEN_COMMENT_SINGLE G_TOKEN_COMMENT_MULTI
-syn keyword	gEnumConstant G_TOKEN_LAST 
+syn keyword	gEnumConstant G_TOKEN_LAST
 syn keyword	gUnion GTokenValue
 syn keyword	gEnum GErrorType
 syn keyword	gEnumConstant G_ERR_UNKNOWN G_ERR_UNEXP_EOF
@@ -333,7 +333,7 @@ syn keyword	gDefine G_CSET_a_2_z G_CSET_A_2_Z
 syn keyword	gDefine G_CSET_DIGITS G_CSET_LATINC
 syn keyword	gDefine G_CSET_LATINS
 syn keyword	gDefine g_scanner_add_symbol g_scanner_remove_symbol
-syn keyword	gDefine g_scanner_foreach_symbol 
+syn keyword	gDefine g_scanner_foreach_symbol
 
 " Automatic String Completion
 syn keyword	gStructure GCompletion
@@ -409,7 +409,7 @@ syn keyword	gStructure GMarkupParseContext GMarkupParser
 " Windows Compatibility Functions
 syn keyword	gDefine MAXPATHLEN
 syn keyword	gType pid_t
-syn keyword	gDefine pipe ftruncate G_WIN32_DLLMAIN_FOR_DLL_NAME   
+syn keyword	gDefine pipe ftruncate G_WIN32_DLLMAIN_FOR_DLL_NAME
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -470,7 +470,7 @@ syn keyword	gDefine g_node_prepend_data
 syn keyword	gEnum GTraverseFlags;
 syn keyword	gEnumConstant G_TRAVERSE_LEAFS G_TRAVERSE_NON_LEAFS
 syn keyword	gEnumConstant G_TRAVERSE_ALL G_TRAVERSE_MASK
-syn keyword	gDefine g_node_first_child 
+syn keyword	gDefine g_node_first_child
 syn keyword	gDefine g_node_next_sibling
 syn keyword	gDefine g_node_prev_sibling
 syn keyword	gDefine G_NODE_IS_LEAF
@@ -502,6 +502,14 @@ syn keyword	gStructure GCache
 " Memory Allocators
 syn keyword	gStructure GAllocator
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" GIO Data Types
+"
+syn keyword gStructure GAsyncReadyCallback
+syn keyword gStructure GAsyncInitable
+syn keyword gStructure GAsyncInitableIface
+syn keyword gStructure GAsyncResult
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Define the default highlighting.
